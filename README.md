@@ -1,8 +1,6 @@
 # Keras-FasterRCNN
 Keras implementation of Faster R-CNN<br/>
 cloned from [https://github.com/yhenon/keras-frcnn/](https://github.com/yhenon/keras-frcnn/)
-cloned from [https://github.com/you359/Keras-FasterRCNN](https://github.com/you359/Keras-FasterRCNN)
-cloned from [https://github.com/jinfagang/keras_frcnn](https://github.com/jinfagang/keras_frcnn)
 
 
 ## USAGE:
@@ -17,9 +15,8 @@ line containing:
 
     For example:
 
-    dataset/training_data/images/000000000.jpg,58.47,152.31,69.58,163.43,Car
-    
-    dataset/training_data/images/000000103.jpg,221.63,162.44,224.00,171.55,Pool
+    `dataset/training_data/images/000000000.jpg,58.47,152.31,69.58,163.43,Car`</br>
+    `dataset/training_data/images/000000103.jpg,221.63,162.44,224.00,171.55,Pool`
 
     The classes will be inferred from the file. To use the simple parser instead of the default pascal voc style parser,
     use the command line option `-o simple`. For example `python train_frcnn.py -o simple -p input.txt`.
@@ -44,13 +41,19 @@ paper. The anchor box sizes are [16, 32, 64] and the ratios are [1:1, 1:2, 2:1].
 
 ## Example output:
 
-![alt-text-1](images/1.jpg "Input") ![alt-text-2](images/2.jpg "Output")
+Input             |  Output
+:-------------------------:|:-------------------------:
+![](images/1.jpg?raw=true "Input")  |  ![](results_imgs/1.png?raw=true "Output")
+![](images/2.jpg?raw=true "Input")  |  ![](results_imgs/2.png?raw=true "Output")
+
 
 ## ISSUES:
 
-- If you run out of memory, try reducing the number of ROIs that are processed simultaneously. Try passing a lower `-n` to `train_frcnn.py`. Alternatively, try reducing the image size from the default value of 224 (as image dimension is 224 x 224) (this setting is found in `config.py`.
+- If you run out of memory, try reducing the number of ROIs that are processed simultaneously. Try passing a lower `-n` to `train_frcnn.py`. Alternatively, try reducing the image size from the default value of 224 (as image dimension is 224 x 224) (this setting is found in `config.py`).
 
 ## Reference
 [1] [Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks, 2015](https://arxiv.org/pdf/1506.01497.pdf) <br/>
 [2] [Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning, 2016](https://arxiv.org/pdf/1602.07261.pdf) <br/>
-[3] [https://github.com/yhenon/keras-frcnn/](https://github.com/yhenon/keras-frcnn/)
+[3] [https://github.com/yhenon/keras-frcnn/](https://github.com/yhenon/keras-frcnn/)<br/>
+[4] [https://github.com/you359/Keras-FasterRCNN](https://github.com/you359/Keras-FasterRCNN)<br/>
+[5] [https://github.com/jinfagang/keras_frcnn](https://github.com/jinfagang/keras_frcnn)
