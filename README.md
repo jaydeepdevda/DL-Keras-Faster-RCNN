@@ -37,7 +37,7 @@ paper. The anchor box sizes are [16, 32, 64] and the ratios are [1:1, 1:2, 2:1].
 - The theano backend by default uses a 7x7 pooling region, instead of 14x14 as in the frcnn paper. This cuts down compiling time slightly.
 - The tensorflow backend performs a resize on the pooling region, instead of max pooling. This is much more efficient and has little impact on results.
 - Keras 2.0.3 Version is Supported
-- run using `!python train_frcnn.py` command in google colab
+- upload code with data and run command `!python train_frcnn.py` in google colab
 
 ## Example output:
 
