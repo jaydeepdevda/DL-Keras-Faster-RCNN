@@ -1,7 +1,10 @@
 # Keras-FasterRCNN
-Keras implementation of Faster R-CNN<br/>
-cloned from [https://github.com/rbgirshick/py-faster-rcnn](https://github.com/rbgirshick/py-faster-rcnn)
+This implementations is detect car and swimming pool from the satellite images of 224x224 dimensions.<br/>
+Dataset is hidden due to privacy issue.<br/>
+But you can refer similar Problem [https://www.kaggle.com/c/airbus-ship-detection](https://www.kaggle.com/c/airbus-ship-detection)<br/>
 
+Keras implementation of Faster R-CNN<br/>
+cloned from [https://github.com/rbgirshick/py-faster-rcnn](https://github.com/rbgirshick/py-faster-rcnn)<br/>
 
 ## USAGE:
 - Both theano and tensorflow backends are supported. However compile times are very high in theano, and tensorflow is highly recommended.
