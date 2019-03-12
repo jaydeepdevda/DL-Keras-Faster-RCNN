@@ -4,7 +4,7 @@ Dataset is hidden due to privacy issue.<br/>
 But you can refer similar Problem [https://www.kaggle.com/c/airbus-ship-detection](https://www.kaggle.com/c/airbus-ship-detection)<br/>
 
 Keras implementation of Faster R-CNN<br/>
-cloned from [https://github.com/rbgirshick/py-faster-rcnn](https://github.com/rbgirshick/py-faster-rcnn)<br/>
+Took reference from original research [https://github.com/rbgirshick/py-faster-rcnn](https://github.com/rbgirshick/py-faster-rcnn)<br/>
 
 ## USAGE:
 - Both theano and tensorflow backends are supported. However compile times are very high in theano, and tensorflow is highly recommended.
