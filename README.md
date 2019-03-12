@@ -1,6 +1,6 @@
 # Keras-FasterRCNN
 Keras implementation of Faster R-CNN<br/>
-cloned from [https://github.com/yhenon/keras-frcnn/](https://github.com/yhenon/keras-frcnn/)
+cloned from [https://github.com/rbgirshick/py-faster-rcnn](https://github.com/rbgirshick/py-faster-rcnn)
 
 
 ## USAGE:
