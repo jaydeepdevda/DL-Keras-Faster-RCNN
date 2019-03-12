@@ -1,0 +1,13 @@
+dataset/training_data/images/000000000.jpg,58.47,152.31,69.58,163.43,Car
+dataset/training_data/images/000000000.jpg,10.32,205.68,21.43,216.80,Car
+dataset/training_data/images/000000000.jpg,40.37,0.00,50.97,3.89,Car
+dataset/training_data/images/000000000.jpg,46.67,41.29,57.79,52.40,Car
+dataset/training_data/images/000000001.jpg,58.47,40.31,69.58,51.43,Car
+dataset/training_data/images/000000001.jpg,10.32,93.68,21.43,104.80,Car
+dataset/training_data/images/000000002.jpg,204.28,211.13,215.39,222.24,Car
+dataset/training_data/images/000000002.jpg,214.04,120.53,224.00,131.64,Car
+dataset/training_data/images/000000002.jpg,218.49,132.50,224.00,143.61,Car
+dataset/training_data/images/000000003.jpg,192.66,182.54,203.77,193.65,Car
+dataset/training_data/images/000000003.jpg,201.44,175.81,212.55,186.92,Car
+dataset/training_data/images/000000003.jpg,211.02,168.17,222.13,179.28,Car
+dataset/training_data/images/000000003.jpg,221.63,162.44,224.00,171.55,Car
